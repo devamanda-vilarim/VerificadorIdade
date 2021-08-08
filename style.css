@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  height: 10rem;
+  background-image: linear-gradient(to bottom, rgb(11, 11, 160) 0, rgb(94, 94, 165) 70%,rgba(0, 0, 255, 0.63) 20%);
+  font-family: myFirstFont;
+    color:black;
+
+}
+
+header {
+    text-align: center;
+    color:#fff;
+
+}
+h1 {
+  border: 5px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-bottom-style: dotted;
+  }
+
+input[type="button"] {
+ cursor: pointer;
+ border-radius: 12px;
+ padding: 5px 15px;
+ border: 2px solid rgba(0, 0, 0, 0.692);
+ background-color: rgba(14, 207, 188, 0.651);
+ color: rgb(182, 182, 175);
+}
+
+input[type="button"]:active{
+  background-color:rgb(2, 65, 58);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+section {
+    background: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px black;
+
+}
+
+img {
+    border-radius: 20%;
+    margin: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style:italic;
+    font-size: smaller;
+
+}
